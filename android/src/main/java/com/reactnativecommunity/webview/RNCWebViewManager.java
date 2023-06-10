@@ -198,6 +198,10 @@ public class RNCWebViewManager extends SimpleViewManager<WebView> {
     settings.setDisplayZoomControls(false);
     settings.setDomStorageEnabled(true);
     settings.setSupportMultipleWindows(true);
+    
+    settings.setDatabaseEnabled(true);
+    settings.setAppCacheEnabled(true);
+
 
     settings.setAllowFileAccess(false);
     settings.setAllowContentAccess(false);
